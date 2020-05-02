@@ -1,0 +1,155 @@
+/* Hero */
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  width: 488px;
+  height: 563px;
+  background-image: url(/assets/img/bg_heroleft.png);
+  background-size: contain;
+  margin-top: 80px;
+}
+
+.hero_left > h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 7rem;
+  line-height: 10.5rem;
+  color: #131415;
+  margin: 73px auto 0 0;
+}
+
+.hero_left > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #131415;
+  max-width: 440px;
+  margin-bottom: 0;
+}
+
+.hero_left > a {
+  background: #f77765;
+  color: white;
+  text-decoration: none;
+  padding: 16px 40px;
+  text-align: center;
+  display: inline-block;
+  width: 183px;
+  box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin-top: 32px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
+.hero_right {
+  background-image: url(/assets/img/bg_heroright.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 639px;
+  height: 603px;
+  left: 681px;
+  top: 123px;
+}
+
+/* Cakes */
+
+.cakes {
+  margin-top: 260px;
+}
+
+.cakes-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.cakes-title-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 6rem;
+  margin: 0;
+}
+
+.cakes-title-left {
+  width: 449px;
+  height: 12px;
+  background: #f7cc65;
+}
+
+.cakes-title-right {
+  width: 449px;
+  height: 12px;
+  background: #f7cc65;
+}
+
+.cakes-item {
+  margin-bottom: 80px;
+}
+
+.cakes-item > img {
+  margin: 0 auto;
+  width: 386px;
+  height: 274px;
+}
+
+.cakes-item > p {
+  margin: 24px auto 0 auto;
+  font-size: 1.8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  max-width: 386px;
+}
+
+/* number */
+
+.number {
+  height: 365px;
+  background: #f7cc65;
+}
+
+.number-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 32px;
+}
+
+.number-item {
+  margin: 40px 0 0 0;
+}
+
+.number-item > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11rem;
+  color: #fff;
+  line-height: 16.5rem;
+  margin: 0;
+}
+
+.number-item > h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 6rem;
+  color: #fff;
+  margin: 0;
+}
