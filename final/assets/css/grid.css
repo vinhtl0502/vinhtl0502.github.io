@@ -14,10 +14,6 @@
   flex-wrap: wrap;
   margin: 0;
 }
-.col {
-  padding-left: 4px;
-  padding-right: 4px;
-}
 
 .justify-between {
   justify-content: space-between;
@@ -100,10 +96,6 @@
 
 /* >Tablet */
 @media (min-width: 740px) {
-  .col {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
   .m-0 {
     display: none;
   }
@@ -184,10 +176,6 @@
 
 /* PC low resolution > */
 @media (min-width: 1113px) {
-  .col {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .l-0 {
     display: none;
   }
@@ -271,10 +259,7 @@
   .wide {
     width: 984px;
   }
-  .wide .row {
-    margin-left: -12px;
-    margin-right: -12px;
-  }
+
   .wide .l-0 {
     display: none;
   }
