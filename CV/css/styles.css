@@ -1,7 +1,10 @@
 /* profile */
+.margin-top {
+  margin-top: 6.4rem;
+}
+
 .profile {
-  margin-top: 64px;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
 }
@@ -66,7 +69,7 @@
 
 /* bio */
 .bio {
-  margin-top: 50px;
+  margin-bottom: 5rem;
   position: relative;
 }
 
@@ -97,6 +100,10 @@
 }
 
 /* portfolio */
+.portfolio {
+  margin-bottom: 5rem;
+}
+
 .portfolio_title {
   display: flex;
 }
@@ -163,6 +170,10 @@
 }
 
 /* WORKING */
+.working {
+  margin-bottom: 5rem;
+}
+
 .working_title {
   display: flex;
 }
@@ -221,6 +232,9 @@
 }
 
 /* EDUCATION*/
+.education {
+  margin-bottom: 5rem;
+}
 .education_title {
   display: flex;
 }
@@ -256,7 +270,49 @@
   font-size: 1.5rem;
 }
 
+.education_content {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.education_logo {
+  background: url(/CV/img/education_logo.png) no-repeat;
+  background-size: contain;
+  width: 9rem;
+  height: 9rem;
+}
+
+.education_infor {
+  list-style: none;
+  padding: 0;
+  margin-left: 1.8rem;
+}
+
+.education_infor--year {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+.education_infor--name {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.education_infor--major {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
 /* SKILL SETS*/
+.skill {
+  margin-bottom: 5rem;
+}
 .skill_title {
   display: flex;
 }
@@ -290,4 +346,101 @@
   font-style: normal;
   font-weight: 300;
   font-size: 1.5rem;
+}
+
+.skill_content {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.skill_content > img {
+  width: 30.8rem;
+  height: 19rem;
+  object-fit: contain;
+  margin-bottom: 5rem;
+}
+
+.skill_content > p:before {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 1.5rem;
+  background-color: #ffd400;
+  margin-right: 0.8rem;
+}
+
+.skill_content > p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* CERTIFICATE */
+.certificate {
+  margin-bottom: 5rem;
+}
+.certificate_title {
+  display: flex;
+}
+
+.certificate_title--number {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #ffd400;
+  margin: auto 0;
+}
+
+.certificate_title--text {
+  background-color: #fff;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin: 3.5rem 0 auto -0.4em;
+}
+
+.certificate_title--text > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #303030;
+}
+
+.certificate_title--text > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.certificate_content {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.certificate_content--item {
+}
+
+.certificate_content--item > img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+}
+
+.certificate_content--item > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-right: 9rem;
+}
+
+.certificate_content--item > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.3rem;
 }
