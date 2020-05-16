@@ -421,13 +421,11 @@
   margin-top: 1rem;
 }
 
-.certificate_content--item {
-}
-
 .certificate_content--item > img {
   width: 10rem;
   height: 10rem;
   object-fit: contain;
+  margin-bottom: 1rem;
 }
 
 .certificate_content--item > h1 {
