@@ -89,10 +89,11 @@
 .bio > .quote_last {
   position: absolute;
   right: 0;
-  bottom: -45px;
+  bottom: -60px;
   width: 63px;
   height: 54px;
   object-fit: contain;
+  z-index: -2;
 }
 
 /* portfolio */
