@@ -219,3 +219,75 @@
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
+
+/* EDUCATION*/
+.education_title {
+  display: flex;
+}
+
+.education_title--number {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #ffd400;
+  margin: auto 0;
+}
+
+.education_title--text {
+  background-color: #fff;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin: 3.5rem 0 auto -0.4em;
+}
+
+.education_title--text > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #303030;
+}
+
+.education_title--text > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/* SKILL SETS*/
+.skill_title {
+  display: flex;
+}
+
+.skill_title--number {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #ffd400;
+  margin: auto 0;
+}
+
+.skill_title--text {
+  background-color: #fff;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin: 3.5rem 0 auto -0.4em;
+}
+
+.skill_title--text > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #303030;
+}
+
+.skill_title--text > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
