@@ -1,7 +1,7 @@
 /* profile */
 .profile {
   margin-top: 64px;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
@@ -10,7 +10,6 @@
   width: 152px;
   height: 202px;
   position: relative;
-  display: inline-block;
 }
 
 .avatar_bg {
@@ -27,6 +26,7 @@
   width: 133px;
   height: 178px;
   border-radius: 4px;
+  border: 0px;
   background-image: url(/CV/img/avatar.png);
   background-size: contain;
   position: absolute;
@@ -42,22 +42,29 @@
 }
 .profile_infor > .profile_name {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
   list-style: none;
   padding: 0;
 }
 
 .profile_infor > .profile_contact {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
   list-style: none;
   padding: 0;
 }
 
-/* bio */
+.profile_infor > .profile_contact > li > i {
+  margin-right: 8px;
+  padding: 4px 0 4px 0;
+  color: #ffd400;
+}
 
+/* bio */
 .bio {
   margin-top: 50px;
   position: relative;
@@ -74,8 +81,8 @@
   margin-bottom: 8px;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -86,4 +93,128 @@
   width: 63px;
   height: 54px;
   object-fit: contain;
+}
+
+/* portfolio */
+.portfolio_title {
+  display: flex;
+}
+
+.portfolio_title--number {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #ffd400;
+  margin: auto 0;
+}
+
+.portfolio_title--text {
+  background-color: #fff;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin: 3.5rem 0 auto -0.4em;
+}
+
+.portfolio_title--text > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #303030;
+}
+
+.portfolio_title--text > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.portfolio_content {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.portfolio_content > p:before {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 1.5rem;
+  background-color: #ffd400;
+  margin-right: 0.8rem;
+}
+
+.portfolio_content > p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.portfoloio_content--link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* WORKING */
+.working_title {
+  display: flex;
+}
+
+.working_title--number {
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  color: #ffd400;
+  margin: auto 0;
+}
+
+.working_title--text {
+  background-color: #fff;
+  padding-left: 0.6rem;
+  padding-right: 0.8rem;
+  margin: 3.5rem 0 auto -0.4em;
+}
+
+.working_title--text > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #303030;
+}
+
+.working_title--text > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.working_content {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.working_content > p:before {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 1.5rem;
+  background-color: #ffd400;
+  margin-right: 0.8rem;
+}
+
+.working_content > p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
