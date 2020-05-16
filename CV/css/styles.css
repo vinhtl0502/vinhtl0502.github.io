@@ -1,0 +1,89 @@
+/* profile */
+.profile {
+  margin-top: 64px;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 152px;
+  height: 202px;
+  position: relative;
+  display: inline-block;
+}
+
+.avatar_bg {
+  background-image: url(/CV/img/profile_bg.png);
+  background-size: contain;
+  width: 79px;
+  height: 92.39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.avatar_profile {
+  width: 133px;
+  height: 178px;
+  border-radius: 4px;
+  background-image: url(/CV/img/avatar.png);
+  background-size: contain;
+  position: absolute;
+  left: 19px;
+  top: 24px;
+}
+
+.profile_infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 24px;
+}
+.profile_infor > .profile_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.profile_infor > .profile_contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* bio */
+
+.bio {
+  margin-top: 50px;
+  position: relative;
+}
+
+.bio > .quote_first {
+  width: 63px;
+  height: 54px;
+  object-fit: contain;
+}
+
+.bio > p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.bio > .quote_last {
+  position: absolute;
+  right: 0;
+  bottom: -45px;
+  width: 63px;
+  height: 54px;
+  object-fit: contain;
+}
