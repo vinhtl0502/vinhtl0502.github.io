@@ -104,6 +104,9 @@
 }
 
 /* GROWING TITLE */
+.padding-bot {
+  padding-bottom: 9rem;
+}
 
 .bg {
   background: #f7f4f4;
@@ -182,6 +185,7 @@
   font-weight: 200;
   font-size: 1.4rem;
   color: #d1d9df;
+  padding: 0.5rem 0;
 }
 
 .footer_col1 > li:nth-child(1) {
@@ -207,6 +211,7 @@
   font-weight: 200;
   font-size: 1.4rem;
   color: #d1d9df;
+  padding: 0.5rem 0;
 }
 
 .footer_company > li:nth-child(1) {
@@ -229,6 +234,7 @@
   font-weight: 200;
   font-size: 1.4rem;
   color: #d1d9df;
+  padding: 0.5rem 0;
 }
 
 .footer_contact > li:nth-child(1) {
