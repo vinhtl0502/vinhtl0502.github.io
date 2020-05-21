@@ -56,23 +56,13 @@
   margin-top: 32px;
 }
 
-.hero_right {
-  position: relative;
-}
-
 .hero_right--img {
   width: 40rem;
   height: 40rem;
-  position: absolute;
-  right: 0;
 }
 
 /* OUR VALUES */
 .value_left {
-  position: relative;
-}
-
-.value_left--bg {
   width: 30rem;
   height: 40rem;
   background: #fc5162;
@@ -82,11 +72,14 @@
 .value_left--img {
   width: 40rem;
   height: 40rem;
-  position: absolute;
-  left: 0;
-  top: 0;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
 }
 
+.value_right {
+  margin-top: 6rem;
+}
 .value_right--title {
   font-family: "Inter", sans-serif;
   font-weight: 600;
